@@ -1,0 +1,15 @@
+{
+  "name": "node-cron",
+  "version": "1",
+  "description": "test nede cron",
+  "main": "server.js",
+  "author": "hamed zeidabadi",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "node-cron": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
