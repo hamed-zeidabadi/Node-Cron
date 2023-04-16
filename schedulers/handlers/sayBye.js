@@ -1,5 +1,3 @@
-const sayBye = () => {
+module.exports = () => {
   console.log("Bye World !");
 };
-
-module.exports = sayBye;
