@@ -8,6 +8,7 @@ module.exports = {
         cron.schedule(config[key].time, () => {
           const handler = require(`${config[key].handler}`);
           handler();
+          console.log(`${config[key].name} is Run !`);
         });
       }
     });

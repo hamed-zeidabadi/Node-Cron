@@ -1,6 +1,10 @@
 const config = {
-  hello: { time: "*/10 * * * * *", handler: "./handlers/sayHello" },
-  bye: { time: "*/10 * * * * *", handler: "./handlers/sayBye" },
+  hello: {
+    name: "sayHello",
+    time: "*/10 * * * * *",
+    handler: "./handlers/sayHello",
+  },
+  bye: { name: "sayBye", time: "*/20 * * * * *", handler: "./handlers/sayBye" },
 };
 
 module.exports = config;
